@@ -1,0 +1,93 @@
+.app-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.app-page {
+  background-color: rgb(255, 231, 255);
+  height: 100vh;
+  padding: 20px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-task-btn {
+  height: 35px;
+  width: 110px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(209, 71, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.app-container {
+  background-color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  height: 400px;
+  width: 50%;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+.form-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.add-text-bar {
+  height: 32px;
+  width: 300px;
+  outline-color: rgb(209, 71, 255);
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(218, 215, 218);
+}
+.tasks-list {
+  list-style-type: none;
+  width: 300px;
+  overflow-y: auto;
+}
+.task-item {
+  border: 0.5px solid green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.task-item svg {
+  font-size: 20px;
+}
+.task-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+.task-title {
+  font-family: "Roboto" sans-serif;
+}
+.task-title.completed {
+  text-decoration: line-through;
+  color: #666;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
